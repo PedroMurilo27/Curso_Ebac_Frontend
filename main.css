@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} /* Reset da página*/
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Cabeçalho */
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: floralwhite;
+}
+/*Estilização do cabeçalho*/
+    
+
+header li {
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: bold;
+    margin-left: 16px; /*Espaçamento dos botões no cabeçalho */
+}
+
+header li a {
+    color: #fff;
+    text-decoration: none;
+}
+/*Estilização dos botões das seções no cabeçalho*/
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+/*Resolução do monitor*/
+
+.articles {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between; /*Espaçamento entre os articles na página*/
+}
+
+.articles article img {
+    width: 100%;
+}
+/*Tamanho das imagens nas seções */
+
+.articles article {
+    width: 30%;
+}
+/*tamanho das seções */
+
+section {
+    padding: 16px 0;
+}
+/* Tamanha do padding entre as sessões */
+
+section h2,
+.articles article {
+    margin-bottom: 16px 0;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+} /*Estilização dos botões ler mais */
+
+.articles article a:hover {
+    text-decoration:underline;
+}
+
+.articles article p,
+.articles article a
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+} /*Tamanho da fonte em H3*/
+
+section h2 {
+    font-size: 32px;
+ } /*Tamanho da fonte em H2*/
+
+
+ /*SEÇÃO ESPORTES*/
+#Sports {
+    background-color: rgba(32, 178, 170, 0.3);
+} /* Cor de Fundo da área de Esportes. */
+
+#Sports .articles article a {
+    background-color: rgba(32, 178, 170, .7);
+    color: black;
+} /*Estilização do botão "ler mais da sessão" */
+
+
+
+/*SEÇÃO ECONOMIA*/
+#Economy {
+    background-color: rgba(95, 158, 160, 0.8)
+}
+/*Cor de fundo da área de economia */
+
+#Economy .articles article a{
+    background-color: rgba(95, 158, 160, 1);
+    color: black;
+} /*Estilização do botão "ler mais da sessão" */
+
+
+
+/*SEÇÃO ENTRETENIMENTO*/
+#Entertainment {
+    background-color: rgba(0, 158, 160, 0.8);
+} /*Cor de fundo sessão*/
+
+#Entertainment .articles article a{
+    background-color: rgba(0, 158, 160, 1);
+    color: black;
+} /*Estilização do botão "ler mais da sessão" */
+
+
+
+/*SEÇÃO TECNOLOGIA*/
+#Technology {
+    background-color: rgba(0, 128, 128, 0.8);
+}
+
+#Technology .articles article a{
+    background-color: rgba(0, 128, 128, 1);
+    color: black;
+}
